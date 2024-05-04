@@ -174,6 +174,75 @@
 
 // 11)
 
-function rangeOutSum(arr) {
-    
-}
+// function rangeOutSum(arr, k, l) {
+//   let sum = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i < k || i > l) {
+//       sum += arr[i];
+//     }
+//   }
+
+//   return sum;
+// }
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let k = 2;
+// let l = 5;
+// console.log(rangeOutSum(arr, k, l));
+
+// 12)
+
+// function separateTruthyFalsy(arr) {
+//   let truthyArr = [];
+//   let falsyArr = [];
+
+//   for (let element of arr) {
+//     if (element) {
+//       truthyArr.push(element);
+//     } else {
+//       falsyArr.push(element);
+//     }
+//   }
+
+//   return { truthy: truthyArr, falsy: falsyArr };
+// }
+
+// let arr = [10, false, "", "Abdulaziz", null];
+// let result = separateTruthyFalsy(arr);
+// console.log("Truthy:", result.truthy);
+// console.log("Falsy:", result.falsy);
+
+// 13)
+
+// function getOddMin(arr) {
+//   let juft = [];
+//   for (i = 0; i <= arr; i++) {
+//     if (arr[i] % 2 == 0) {
+//       juft.push();
+//     }
+//   }
+//   return juft.min();
+// }
+
+// let arr = [2, 5, 9, 4];
+// console.log(getOddMin(arr));
+
+// 14)
+
+// function getEvenMax(arr) {
+//   let toq = [];
+//   for (i = 0; i <= arr; i++) {
+//     if (arr[i] % 2 == 1) {
+//       toq.push();
+//     }
+//   }
+//   return toq.max();
+// }
+
+// let arr = [2, 5, 9, 4];
+// console.log(getEvenMax(arr));
+
+// 15)
+
+
